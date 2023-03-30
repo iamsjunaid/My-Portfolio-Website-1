@@ -8,6 +8,10 @@ body {
   justify-content: space-between;
 }
 
+.top-header a {
+  text-decoration: none;
+}
+
 .section-template {
   background-color: #172b4d;
 }
@@ -89,6 +93,11 @@ body {
   position: absolute;
   display: grid;
   row-gap: 88px;
+  background-color: #dfe1e6;
+}
+
+.mobile-template {
+  background-color: #fff;
 }
 
 .first-template {
@@ -175,6 +184,13 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2 !important;
+  font-size: 17px;
+}
+
+.first-template-button p {
+  font-size: 17px;
+  margin: 0;
+  padding: 12px;
 }
 
 .about-section > p:nth-of-type(1) {
@@ -255,18 +271,17 @@ body {
   list-style: none;
 }
 
-.first-template button {
+.first-template-button {
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   gap: 10px;
   border: 1px solid #6070ff;
   border-radius: 8px;
   color: #396df2;
-  margin-top: 20px;
-  margin-left: -62%;
+  margin-left: -54%;
+  background-color: #fff;
 }
 
 .first-template-button:hover {
@@ -532,8 +547,8 @@ body {
     background-image: url('./images/Header-bg.png');
     background-size: contain;
     width: 1440px;
-    height: 916px;
     top: 4em;
+    height: 600px;
   }
 
   .main-section-content {
@@ -570,6 +585,7 @@ body {
     border-radius: 24px;
     padding: 24px;
     margin: 42px auto;
+    background-color: #fff;
   }
 
   .first-desktop-template-col-2 {
@@ -623,6 +639,7 @@ body {
     display: flex;
     flex-direction: row;
     align-content: space-between;
+    justify-content: left;
     position: absolute;
     left: 0;
     right: 0;
@@ -632,14 +649,15 @@ body {
 
   .about-section-col-1 p {
     margin-left: 10px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
+    width: 438px;
   }
 
   .about-section-col-1 h1 {
     margin-top: -25px;
+  }
+
+  .about-section-button {
+    width: 158px;
   }
 
   .test {
@@ -657,7 +675,7 @@ body {
     background-color: #6070ff;
     width: 1440px;
     height: 916px;
-    top: 1048%;
+    top: 3900px;
   }
 
   .col-1 {
