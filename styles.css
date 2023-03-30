@@ -108,8 +108,6 @@ body {
   background-color: #fff;
 }
 
-
-
 .first-template {
   background-color: #fff;
   width: 327px;
@@ -401,7 +399,7 @@ body {
   background: #6070ff;
 }
 
-.about-section-button:hover p{
+.about-section-button:hover p {
   color: #fff;
 }
 
@@ -533,7 +531,6 @@ body {
   background-color: #fff;
 }
 
-
 @media only screen and (min-width: 768px) {
   header img {
     display: none;
@@ -545,9 +542,8 @@ body {
 
   .social-logos {
     transition: transform ease-in-out;
-    
   }
-  
+
   .social-logos:hover {
     transform: scale(1.2);
   }
@@ -642,19 +638,6 @@ body {
     border-radius: 8px;
   }
 
-  .first-desktop-template-button:hover p{
-    color: #fff;
-  }
-
-  .first-desktop-template-button:active {
-    background: #2230d2;
-    border-radius: 8px;
-  }
-
-  .first-desktop-template-button:disabled {
-    color: #5e6c84;
-  }
-
   .first-desktop-template-button p {
     width: 102px;
     height: 24px;
@@ -669,6 +652,24 @@ body {
     color: #396df2;
   }
 
+  .about-section-col-1 p {
+    margin-left: 10px;
+    width: 438px;
+  }
+
+  .first-desktop-template-button:hover p {
+    color: #fff;
+  }
+
+  .first-desktop-template-button:active {
+    background: #2230d2;
+    border-radius: 8px;
+  }
+
+  .first-desktop-template-button:disabled {
+    color: #5e6c84;
+  }
+
   .about-section {
     display: flex;
     flex-direction: row;
@@ -679,11 +680,6 @@ body {
     right: 0;
     margin: 0 auto;
     width: 80%;
-  }
-
-  .about-section-col-1 p {
-    margin-left: 10px;
-    width: 438px;
   }
 
   .about-section-col-1 h1 {
