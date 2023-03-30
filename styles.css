@@ -12,6 +12,14 @@ body {
   text-decoration: none;
 }
 
+#name-logo {
+  transition: transform 1.5s;
+}
+
+#name-logo:hover {
+  transform: rotate(360deg);
+}
+
 .section-template {
   background-color: #172b4d;
 }
