@@ -543,6 +543,15 @@ body {
     margin-right: 54px;
   }
 
+  .social-logos {
+    transition: transform ease-in-out;
+    
+  }
+  
+  .social-logos:hover {
+    transform: scale(1.2);
+  }
+
   .links ul {
     display: flex;
   }
