@@ -183,14 +183,6 @@ body {
   color: #6070ff;
 }
 
-.btn-submit:hover {
-  border: 1px solid #fff;
-}
-
-.btn-submit:hover p{
-  color: #fff;
-}
-
 .about-section-button p {
   width: 102px;
   height: 24px;
@@ -199,18 +191,22 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #396df2; 
+  color: #396df2;
   font-size: 17px;
-}
-
-.about-section-button:hover p {
-  color: #fff;
 }
 
 .first-template-button p {
   font-size: 17px;
   margin: 0;
   padding: 12px;
+}
+
+.btn-submit:hover p {
+  color: #fff;
+}
+
+.about-section-button:hover p {
+  color: #fff;
 }
 
 .about-section > p:nth-of-type(1) {
@@ -411,10 +407,6 @@ body {
   background: #6070ff;
 }
 
-.about-section-button:hover p {
-  color: #fff;
-}
-
 .about-section-button:active {
   background: #2230d2;
   border-radius: 8px;
@@ -549,7 +541,7 @@ body {
 
 .social-logos:hover {
   transform: scale(1.2);
-} 
+}
 
 .first-template img {
   transition: transform 0.3s linear;
