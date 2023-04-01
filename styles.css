@@ -516,6 +516,7 @@ body {
   border-radius: 8px;
   border: none;
   margin-left: 20px;
+  justify-content: center;
 }
 
 .btn-submit:hover {
@@ -673,6 +674,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #396df2;
+    justify-content: center;
   }
 
   .about-section-col-1 p {
