@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](http://localhost:36213/index.html)
+- [Live Demo Link](https://iamsjunaid.github.io/My-Portfolio-Website-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

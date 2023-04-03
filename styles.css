@@ -756,7 +756,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 768px) {
   .links ul {
     display: none;
   }
