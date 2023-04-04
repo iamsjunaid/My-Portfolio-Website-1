@@ -195,6 +195,6 @@ I would like to thank Microverse for helping me complete this project.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/iamsjunaid/My-Portfolio-Website/blob/d60a1e7617131e33959c721cec239666eb68f5ba/LICENSE.md) licensed.
+This project is [MIT](https://github.com/iamsjunaid/My-Portfolio-Website-1/blob/add-accessibility/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
